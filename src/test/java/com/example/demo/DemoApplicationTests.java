@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class DemoApplicationTests {
 
     @Test
-    void contextLoads(CapturedOutput capturedOutput) {
+    void shouldCaptureInfoLog(CapturedOutput capturedOutput) {
         assertThat(capturedOutput.getOut()).contains("Hello");
 
     }
