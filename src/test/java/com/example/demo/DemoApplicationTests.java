@@ -17,4 +17,8 @@ class DemoApplicationTests {
         assertThat(capturedOutput.getOut()).contains("Hello info");
     }
 
+    @Test
+    void shouldCaptureErrorLog(CapturedOutput capturedOutput) {
+        assertThat(capturedOutput.getOut()).contains("Hello error");
+    }
 }

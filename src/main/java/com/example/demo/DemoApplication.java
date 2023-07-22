@@ -17,6 +17,7 @@ public class DemoApplication {
 	@EventListener(ApplicationReadyEvent.class)
 	public void start() {
 		log.info("Hello info");
+		log.error("Hello error");
 	}
 
 }
