@@ -14,8 +14,7 @@ class DemoApplicationTests {
 
     @Test
     void shouldCaptureInfoLog(CapturedOutput capturedOutput) {
-        assertThat(capturedOutput.getOut()).contains("Hello");
-
+        assertThat(capturedOutput.getOut()).contains("Hello info");
     }
 
 }
