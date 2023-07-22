@@ -18,6 +18,7 @@ public class DemoApplication {
 	public void start() {
 		log.info("Hello info");
 		log.error("Hello error");
+		log.debug("Hello debug");
 	}
 
 }

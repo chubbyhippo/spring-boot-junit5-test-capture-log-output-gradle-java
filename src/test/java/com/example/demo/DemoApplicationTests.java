@@ -21,4 +21,9 @@ class DemoApplicationTests {
     void shouldCaptureErrorLog(CapturedOutput capturedOutput) {
         assertThat(capturedOutput.getOut()).contains("Hello error");
     }
+
+    @Test
+    void shouldCaptureDebugLog(CapturedOutput capturedOutput) {
+        assertThat(capturedOutput.getOut()).contains("Hello debug");
+    }
 }
